@@ -2,7 +2,6 @@ package edu.montana.esof322;
 
 import edu.montana.esof322.util.DB;
 import org.junit.jupiter.api.AfterEach;
-import redis.clients.jedis.Jedis;
 
 import java.io.IOException;
 import java.sql.*;

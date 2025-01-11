@@ -73,13 +73,21 @@ public class LoggingDemo {
             //   collect the advisor for that student into a set
             Long advisorId = student.adv;
             User advisor = User.find(advisorId);
-            LOGGER.log(Level.FINE, "Found advisor: " +  advisor.em);
-            advisors.add(advisor);
+            if (advisor == null) {
+                LOGGER.log(Level.WARNING, "Found student with not advisor: " +  student.em);
+            } else {
+                LOGGER.log(Level.FINE, "Found advisor: " +  advisor.em);
+                advisors.add(advisor);
+            }
         }
 
         // Return the set of advisors
         LinkedList<User> advisorsAsList = new LinkedList<>(advisors);
-        LOGGER.log(Level.INFO, "Final advisor list: " + advisorsAsList);
+        if (LOGGER.isLoggable(Level.FINE)) {
+            LOGGER.log(Level.FINE, "Final advisor list: " +
+                    advisorsAsList.stream().map(user -> user.em)
+                            .collect(Collectors.joining(", ")));
+        }
         return advisorsAsList;
 
     }
@@ -102,12 +110,21 @@ public class LoggingDemo {
 
         // Return the set of advisors
         LinkedList<User> advisorsAsList = new LinkedList<>(advisors);
-        System.out.println("Final advisor list: " + advisorsAsList);
+        System.out.println("Final advisor list: " +
+                advisorsAsList.stream().map(user -> user.em)
+                        .collect(Collectors.joining(", ")));
         return advisorsAsList;
 
     }
 
     public static void main(String[] args) {
-        best(22);
+        LOGGER.setLevel(Level.ALL);
+        try {
+            LOGGER.addHandler(new FileHandler("log.xml"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        CONSOLE_HANDLER.setLevel(Level.INFO);
+        better(22);
     }
 }

@@ -2,8 +2,6 @@ package edu.montana.esof322.demo.pseudocode;
 
 import edu.montana.esof322.model.MSUClass;
 import edu.montana.esof322.model.User;
-import org.eclipse.jetty.http.HttpFields;
-import org.eclipse.jetty.http.PathMap;
 
 import java.util.HashSet;
 import java.util.LinkedList;

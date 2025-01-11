@@ -3,29 +3,26 @@
 This is the base upstream repository for ESOF 322.  It will be used for code-related homework and general
  exploration in the class.
 
-Students will be working pairs for 322.  Please nominate one person as the project leader who
-will maintain the repository that you both use for implementing your project.
-
 ## Getting Your Private Copy (Clone)
 
 For the project leader, please follow these instructions
 
 - Create a *private* repository in your own account by
     - Going to <https://github.com/new>
-    - Enter the name `esof-322-spring2021-private`
+    - Enter the name `esof-322-spring2025-private`
     - Select `Private`
     - **DO NOT ADD A README.MD or .gitignore!**
     - Navigate to the `Settings` -> `Manage Access` section
     - Add `1cg` as a collaborator
 
-Once your repository is initialized, you can pull it down to your local machine.  Instructions can
-be found on the home page of your new repository.
+Once your repository is initialized, you can clone it to your local machine using the instructions provided by
+github.  (We recommend using the command line, install `git` on windows and use `gitbash` if you have not done so)
 
 Next, you and your partner should both add the class repository as an upstream git repo:
 
 ```bash
-$ git remote add upstream https://github.com/msu/esof-322-spring2021.git
-$ git pull upstream master
+$ git remote add upstream https://github.com/msu/esof-322-spring2025.git
+$ git pull upstream main
 $ git push
 ```
 This will synchronize your private repository with the class repository.
