@@ -1,0 +1,22 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< cs.msu.edu:ESOF_322_Project >---------------------
+[INFO] Building ESOF_322_Project 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact net.andreinc.mockneat:mockneat:pom:0.4.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[WARNING] The POM for net.andreinc.mockneat:mockneat:jar:0.4.1 is missing, no dependency information available
+[INFO] Artifact net.andreinc.mockneat:mockneat:jar:0.4.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.164 s
+[INFO] Finished at: 2025-03-10T10:34:17-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project ESOF_322_Project: Could not resolve dependencies for project cs.msu.edu:ESOF_322_Project:jar:1.0-SNAPSHOT: The following artifacts could not be resolved: net.andreinc.mockneat:mockneat:jar:0.4.1 (present, but unavailable): net.andreinc.mockneat:mockneat:jar:0.4.1 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
