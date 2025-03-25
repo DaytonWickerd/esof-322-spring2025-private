@@ -10,8 +10,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.154 s
-[INFO] Finished at: 2025-03-14T13:48:12-06:00
+[INFO] Total time:  0.145 s
+[INFO] Finished at: 2025-03-25T17:43:42-06:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal on project ESOF_322_Project: Could not resolve dependencies for project cs.msu.edu:ESOF_322_Project:jar:1.0-SNAPSHOT: The following artifacts could not be resolved: net.andreinc.mockneat:mockneat:jar:0.4.1 (present, but unavailable): net.andreinc.mockneat:mockneat:jar:0.4.1 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
 [ERROR] 
