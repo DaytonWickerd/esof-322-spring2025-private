@@ -10,24 +10,14 @@
 [INFO] skip non existing resourceDirectory /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/main/resources
 [INFO] 
 [INFO] --- compiler:3.11.0:compile (default-compile) @ ESOF_322_Project ---
-[INFO] Changes detected - recompiling the module! :source
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 6 source files with javac [debug target 17] to target/classes
-[WARNING] system modules path not set in conjunction with -source 17
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ ESOF_322_Project ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [INFO] skip non existing resourceDirectory /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/resources
 [INFO] 
 [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ESOF_322_Project ---
-[INFO] Changes detected - recompiling the module! :dependency
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 52 source files with javac [debug target 17] to target/test-classes
-[WARNING] system modules path not set in conjunction with -source 17
-[INFO] /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/java/edu/montana/esof322/homework/homework4/Homework4.java: /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/java/edu/montana/esof322/homework/homework4/Homework4.java uses or overrides a deprecated API.
-[INFO] /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/java/edu/montana/esof322/homework/homework4/Homework4.java: Recompile with -Xlint:deprecation for details.
-[INFO] /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/java/edu/montana/esof322/demo/controlflow/ControlFlowDemo.java: /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/java/edu/montana/esof322/demo/controlflow/ControlFlowDemo.java uses unchecked or unsafe operations.
-[INFO] /Users/carson/Projects/msu/classes/current/esof-322-spring2025/grading/scripts/repos/dayton_wickerd/src/test/java/edu/montana/esof322/demo/controlflow/ControlFlowDemo.java: Recompile with -Xlint:unchecked for details.
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- surefire:3.1.2:test (default-test) @ ESOF_322_Project ---
 [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
@@ -36,7 +26,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running edu.montana.esof322.homework.homework1.Homework1
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in edu.montana.esof322.homework.homework1.Homework1
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in edu.montana.esof322.homework.homework1.Homework1
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -45,6 +35,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.297 s
-[INFO] Finished at: 2025-03-26T20:00:54-06:00
+[INFO] Total time:  0.933 s
+[INFO] Finished at: 2025-03-27T17:19:58-06:00
 [INFO] ------------------------------------------------------------------------
