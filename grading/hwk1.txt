@@ -26,7 +26,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running edu.montana.esof322.homework.homework1.Homework1
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in edu.montana.esof322.homework.homework1.Homework1
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in edu.montana.esof322.homework.homework1.Homework1
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -35,6 +35,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.926 s
-[INFO] Finished at: 2025-03-28T22:55:22-06:00
+[INFO] Total time:  0.913 s
+[INFO] Finished at: 2025-03-28T23:57:27-06:00
 [INFO] ------------------------------------------------------------------------
