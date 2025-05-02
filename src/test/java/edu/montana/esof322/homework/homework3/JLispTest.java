@@ -39,4 +39,36 @@ public class JLispTest {
         assertEquals("Foo", "Bar");
     }
 
+
+    @Test
+    public void tooManyArgumentsShouldFail() {
+        JLisp lisp = new JLisp();
+        assertThrows(Exception.class, () -> lisp.eval("(+ 1 2 3)"));
+        fail("too many arguments");
+    }
+
+    @Test
+    public void missingParenthesesShouldThrowError() {
+        JLisp lisp = new JLisp();
+        assertThrows(Exception.class, () -> lisp.eval("+ 1 2"));
+    }
+
+    @Test
+    public void operatorInWrongPositionShouldThrowError() {
+        JLisp lisp = new JLisp();
+        assertThrows(Exception.class, () -> lisp.eval("(1 + 2)"));
+    }
+
+
+    @Test
+    public void extraClosingParenthesisShouldThrowError() {
+        JLisp lisp = new JLisp();
+        assertThrows(Exception.class, () -> lisp.eval("(+ 1 2))"));
+    }
+
+
+
+
+
+
 }
